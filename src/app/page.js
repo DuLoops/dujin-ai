@@ -38,7 +38,7 @@ const LearningToolsHomepage = () => {
       {/* Header */}
       <header className="bg-gradient-to-r from-blue-600 to-purple-600 text-white p-6 shadow-md">
         <div className="max-w-6xl mx-auto">
-          <h1 className="text-3xl font-bold mb-2">Dujin's AI tools</h1>
+          <h1 className="text-3xl font-bold mb-2">Dujin&apos;s AI tools</h1>
           <p className="text-xl opacity-90">Usefull apps created with Claude AI</p>
         </div>
       </header>
@@ -97,7 +97,7 @@ const LearningToolsHomepage = () => {
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
-              <h3 className="text-lg font-semibold mb-3">About Dujin's APP Hub</h3>
+              <h3 className="text-lg font-semibold mb-3">About Dujin&apos;s APP Hub</h3>
               <p className="text-gray-400">A collection of useful applications created with Claude AI to enhance your productivity and learning experience.</p>
             </div>
             <div>
@@ -132,7 +132,7 @@ const LearningToolsHomepage = () => {
             </div>
           </div>
           <div className="mt-8 pt-4 border-t border-gray-700 text-center text-gray-500">
-            <p>© 2025 Dujin's AI app Hub - Created by Dujin with Claude AI</p>
+            <p>© 2025 Dujin&apos;s AI app Hub - Created by Dujin with Claude AI</p>
           </div>
         </div>
       </footer>
