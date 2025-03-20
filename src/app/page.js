@@ -1,6 +1,7 @@
 "use client"
 import React, { useState } from 'react';
 import { Search } from 'lucide-react';
+import Image from 'next/image';
 
 const LearningToolsHomepage = () => {
   const [searchTerm, setSearchTerm] = useState('');
@@ -143,7 +144,15 @@ const LearningToolsHomepage = () => {
 const ToolCard = ({ tool }) => {
   return (
     <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
-      <img src={tool.image} alt={tool.title} className="w-full h-48 object-cover" />
+      <div className="relative w-full h-48">
+        <Image 
+          src={tool.image} 
+          alt={tool.title} 
+          fill
+          className="object-cover"
+          priority
+        />
+      </div>
       <div className="p-5">
         <div className="flex justify-between items-start mb-3">
           <h3 className="text-xl font-bold text-gray-800">{tool.title}</h3>
